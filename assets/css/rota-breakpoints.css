@@ -1,0 +1,1178 @@
+.cloned{
+    opacity: 0;
+}
+/* --------------------- BREAKE POINTS ---------------------------------- */
+
+@media (max-width: 1290px){
+    .container{
+        width: 90%;
+    }
+    .search-box{
+  width: 92%;
+}
+.search-container{
+ max-width: 35rem;
+  height: 5rem;
+  margin: 0 auto;
+}
+    .col{
+        padding-left: 0;
+    }
+    
+/*    CARTÕES*/
+.rdv-card-big img{
+  height: 28rem;
+} 
+.rdv-card-big h1{
+    font-size: 3.6em;
+    bottom: 12rem;
+}
+.rdv-card-big p{
+  bottom: 5rem;
+}
+    .rdv-card-big .tag-card{
+        bottom: 3.5rem;
+    }
+         .card-wide-footer li{
+         bottom: .5rem;
+    }
+        .rdv-card-mini{
+        width: 15.8rem;
+        margin: 0  .2rem ;
+
+    } 
+}
+
+@media (max-width: 1180px){
+    .container{
+        width: 95%;
+    }
+    .tile h1{
+  font-size: 1.3em;
+}
+.tile h2{
+    font-size: 1em;
+
+}
+    
+.rdv-card h1{
+  font-size: 2em;
+  padding: 10px;
+  bottom: 90px;
+}
+
+.rdv-card  p{
+  font-size: 0.75em;
+  padding: 10px;
+  bottom: 25px;
+}
+.rdv-card  .tag-card{
+  font-size: 0.75em;
+  padding: 10px;
+  bottom: 5px;
+}
+    .rdv-card-mini{
+        width: 15.8rem;
+        margin: 0  .2rem ;
+
+    } 
+       .rdv-card-mini img{
+        height: 9rem;
+    }
+.rdv-card-mini h1{
+  font-size: 1.2em;
+  bottom: 35px;
+    padding: .5rem;
+}
+    .rdv-card-mini p{
+  font-size: .7em;
+  bottom: 25px;
+}
+  .rdv-card-mini .tag-card{
+  font-size: .7em;
+  bottom: 7px;
+}
+    .rdv-card-big img{
+        height: 30rem;
+    }
+    .rdv-card-big h1{
+    font-size: 2.8em;
+    bottom: 12rem;
+}
+    .rdv-card-big p{
+    font-size: 1em;
+    bottom: 5rem;
+    
+}
+  
+}
+
+@media (max-width: 1150px){
+    .container{
+        width: 96%;
+    }
+    
+    .rdv-card {
+        width: 20rem;
+    }
+.rdv-card h1{
+  font-size: 2em;
+  padding: 10px;
+  bottom: 90px;
+}
+.rdv-card-mini{
+    max-width: 15rem;
+    } 
+
+.rdv-card-mini h1{
+  bottom: 45px;
+}
+
+}
+@media (max-width: 1070px){
+    .search-box{
+  width: 98%;
+
+}
+.search-container{
+ max-width: 35rem;
+  height: 5rem;
+  margin: 0 auto;
+}
+    
+    .rdv-card {
+        width: 19.5rem;
+    }
+.rdv-card h1{
+  bottom: 100px;
+}
+ .rdv-card-big img{
+      height: 25rem;
+    }
+.rdv-card-mini{
+    max-width: 14.2rem;
+    } 
+    /*CARD WIDE - CARTOES HORIZONTAIS - CARDS DE OPERTAS*/
+
+.rdv-card-wide{
+    margin-left: 0;
+}
+.rdv-card-wide img{
+  height: 9rem;  
+}
+.rdv-card-wide h4{
+    font-size: 1.1em;
+}
+.card-wide-footer li{
+    bottom: 1.5rem;
+    font-size: .8em;
+}
+.btn-black{
+  padding: 5px;
+   left: 2.5rem;;
+   background: #000; 
+  font-size: 0.7em !important;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+   position: absolute;
+    width: 8.5rem;
+    z-index: 1;
+}
+.rdv-card .btn-black{
+    padding: .7rem;
+   left: .1rem;;
+   background: #000; 
+  font-size: 1em !important;
+  text-align: center;
+   position: absolute;
+    width: 85%;
+    z-index: 1;
+}
+}
+@media (max-width: 1030px){
+    
+    .rdv-card {
+        width: 19rem;
+    }
+.rdv-card-mini{
+    max-width: 13.5rem;
+    } 
+.rdv-card-mini h1{
+  font-size: 1em;
+}
+
+        /*CARD WIDE - CARTOES HORIZONTAIS - CARDS DE OPERTAS*/
+
+.rdv-card-wide h4{
+    font-size: 1.2em;
+}
+.card-wide-footer li{
+    bottom: -.5rem;
+    margin-right: 1rem !important;
+}
+.pl-4, .pr-4{
+    padding-left: 0 !important;
+}
+    .rdv-card-wide .card-body {
+    padding: .1rem;
+}
+.btn-black{
+  padding: 7px;
+   left: 1rem;
+}
+}
+
+@media (max-width: 991px){
+    .container{
+        width: 94%;
+    }
+  .top-x{
+    margin-top: -16% !important;
+}
+   .section-ofertas-cards {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-basis: 33%;
+}
+/*    cards*/
+    .tile{
+    height: 12rem;
+}
+    .tile:hover{
+    height: 20rem;
+}
+    .tile h1{
+   font-size: 1.2em;
+} 
+    .rdv-card {
+     width: 17.5rem;
+}
+
+.rdv-card h1{
+  font-size: 1.7em;
+  padding: .1rem;
+  bottom: 110px;
+}
+.rdv-card p{
+  padding: .1rem;
+  bottom: 2.2rem;
+}
+.rdv-card .tag-card{
+    padding: .1rem;
+    bottom: .8rem;
+}
+.rdv-card-mini{
+    width: 12.5rem;
+    } 
+    .rdv-card-mini img{
+        height: 8em;
+    }
+.rdv-card-mini h1{
+  font-size: 1em;
+    padding: .1rem;
+    bottom: 40px;
+}
+.rdv-card-mini p{
+  font-size: .7em;
+    padding: .1rem;
+  bottom: 1.6rem;
+}
+  .rdv-card-mini .tag-card{
+  font-size: .65em;
+ padding: .1rem;
+   bottom: .5rem;
+}
+    .rdv-card-big img{
+        height: 23rem;
+    }
+    .rdv-card-big h1{
+    font-size: 2.6em;
+    bottom: 9rem;
+    padding: 0;
+}
+    .rdv-card-big p{
+    font-size: .9em;
+    padding: 0 .3rem;
+    bottom: 3rem;   
+}
+    .rdv-card-big .tag-card{
+    font-size: .7em;
+    padding: 0;
+    bottom: 1.7rem;   
+}
+}
+
+@media (max-width: 920px){
+    
+    .container{
+        width: 96%;
+    }
+    
+    
+/*    cards*/
+    
+    .blog-cards{
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 50%;
+    }
+    
+    .tile{
+  width: 100%;
+  height: 19rem;
+  margin-bottom: 2rem;
+
+
+}
+    
+ .tile h1{
+  font-size: 1.8em;
+   padding: 1rem;
+   font-weight: 400;
+}
+.tile h2{
+font-size: 1.6em;
+   font-weight: 400;;
+
+}
+.tile p{
+  font-size: 1em;
+   padding: 1rem;
+  margin: 0;
+
+}
+.rdv-card {
+ width: 16rem;
+}  
+.rdv-card h1{
+  font-size: 1.6em;
+  padding: .1rem;
+  bottom: 90px;
+}
+
+.rdv-card  p{
+  font-size: 0.75em;
+  padding: 10px;
+  bottom: 25px;
+}
+.rdv-card  .tag-card{
+  font-size: 0.75em;
+  padding: 10px;
+  bottom: 5px;
+}
+     .rdv-card-mini{
+       width: 11.5rem;
+    }
+.rdv-card-mini h1{
+  font-size: .98em;
+   padding: 0.1em;
+    bottom: 30px;
+}
+    .rdv-card-mini p{
+  font-size: .6em;
+  padding: 0.1em;
+  bottom: 1.4rem;
+}
+    .rdv-card-big{
+       width: 100%; 
+    }
+    .rdv-card-big img{
+        height: 21rem;
+    }
+    .rdv-card-big h1{
+    font-size: 2.3em;
+    bottom: 10rem;
+    padding: 0;
+}
+    .rdv-card-big p{
+    font-size: .85em;
+    padding: 0rem 1rem 1rem 0rem;   
+}
+    .rdv-card-big .tag-card{
+    font-size: .75em;
+    bottom: 2rem;   
+}
+}
+
+
+@media (max-width: 840px){
+    .container{
+        width: 94%;
+    } 
+    .search-box{
+    width: 100%;
+
+}
+      .top-x{
+    margin-top: -19% !important;
+}
+/*    cards*/   
+
+.section-ofertas-cards .rdv-card{
+    width: 100%;
+}
+  .section-ofertas-cards  .rdv-card h1{
+  font-size: 1.5em;
+  padding: 0;
+   bottom: 5rem;
+}
+.section-ofertas-cards .rdv-card  p{
+  font-size: 0.7em;
+  padding-left: -1rem;
+
+}
+.tile{
+  height: 17rem;
+}
+.tile:hover{
+  height: 25rem;
+}  
+ .tile h1{
+  font-size: 1.6em;
+}
+.rdv-card {
+ width: 100%;
+}  
+.rdv-card h1{
+  font-size: 2em;
+  padding: 0 .9rem .1rem .1rem;
+    bottom: 8rem;
+}  
+.rdv-card  p {
+   font-size: 1em;
+   padding: 0 .9rem .3rem .1rem;
+     bottom: 3rem;
+}
+ .rdv-card  .tag-card{
+  font-size: 1em;
+  padding: 0 .9rem .5rem .1rem;
+      bottom: 1rem;
+}
+    .rdv-card-mini{
+       width: 100%;
+       
+    }
+ .rdv-card-mini img{
+    height: 9rem;
+    }
+ .rdv-card-mini h1{
+    bottom: 50px;
+}
+ .rdv-card-mini p {
+  font-size: .7em;
+  bottom: 1.9rem;
+}
+ .rdv-card-mini .tag-card{
+  font-size: .7em;
+   bottom: .9rem;
+}
+ .rdv-card-big img{
+        height: 30rem;
+    }
+    .rdv-card-big h1{
+    font-size: 3em;
+}
+ .rdv-card-big p{
+    font-size: 1em;
+}
+    .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: -10px !important;
+}
+ 
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #fafafa !important;
+}
+
+}
+
+@media (max-width: 790px){
+    .container{
+        width: 95%;
+    }
+        .section-shaped .shape {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    width: 100%;
+    height: 55%;
+}
+    .top-x{
+    margin-top: -32% !important;
+}
+    .section-title-sm h1{
+        font-size: 1.4em;
+        padding: 1rem;
+    }
+   .section-destaq-cicle  .section-title-left p{
+        font-size: 1em;
+        padding: .1rem;
+    }
+        
+.tile{
+  height: 17rem;
+}
+.tile:hover{
+  height: 25rem;
+}
+    
+ .tile h1{
+  font-size: 1.6em;
+}
+ .rdv-card {
+ width: 21.5rem;
+} 
+
+ .rdv-card-big img{
+      height: 19rem;
+    }
+    .rdv-card-big h1{
+    font-size: 2.1em;
+}
+ .rdv-card-big p{
+    font-size: .8em;
+}
+
+}
+
+
+@media (max-width: 760px){
+ .rdv-card {
+ width: 100%;
+} 
+.rdv-card-mini {
+ width: 100%;
+} 
+    .mt-100 {
+    margin-top: 50px !important;
+}
+    .mt-150 {
+    margin-top: 10px !important;
+}
+     .rdv-blog-section .section-title h1{
+        font-size: 1.8em;
+         padding: .9rem;
+    }
+    .section-ofertas-cards .rdv-card {
+    width: 100%;
+}
+    .section-ofertas-cards .rdv-card h1 {
+    font-size: 1.8em;
+    bottom: 7rem;
+}
+    .section-ofertas-cards .rdv-card p {
+    font-size: .9em;
+}
+ .card-view-control:nth-of-type(3){
+   display: none;
+}
+.card-wide-control:nth-of-type(4){
+   display: none;
+}
+.section-ofertas-cards{
+    flex-flow: row nowrap;
+    flex-basis: 50%;
+}
+            /*CARD WIDE - CARTOES HORIZONTAIS - CARDS DE OPERTAS*/
+    .rdv-card-wide{
+        width: 100%;
+    }
+    .rdv-card-wide h4{
+        font-size: 1em;
+    }
+
+ .rdv-card-big img{
+      height: 30rem;
+    }
+    .rdv-card-big h1{
+    font-size: 2.8em;
+}
+ .rdv-card-big p{
+    font-size: 1em;
+}
+    .rdv-card .btn-black{
+    padding: .9rem;
+   left: .1rem;
+   top: -1.2rem;
+  font-size: .8em !important;
+}
+
+}
+
+@media (max-width: 690px){
+ .rdv-card {
+ width: 18rem;
+} 
+.top-x{
+    margin-top: -37% !important;
+}
+ .rdv-card-big img{
+      height: 19rem;
+    }
+    .rdv-card-big h1{
+    font-size: 2.1em;
+}
+ .rdv-card-big p{
+    font-size: .8em;
+}
+
+}
+
+@media (max-width: 640px){
+
+   .js .pages-nav {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+  
+    .search-container{
+ max-width: 23rem !important;
+}
+ .rdv-card {
+ width: 16.5rem;
+} 
+        .top-x{
+    margin-top: -40% !important;
+}
+    .section-title-sm h1{
+        font-size: 1.2em;
+    }
+  
+.rdv-card-mini img{
+    height: 8rem;
+} 
+    .rdv-card-mini h1{
+    font-size: .9em;
+        bottom: 3rem;
+} 
+      .rdv-card-mini p{
+    font-size: .6em;
+} 
+.rdv-card-mini .tag-card{
+    font-size: .6em;
+} 
+ .rdv-card-big img{
+      height: 19rem;
+    }
+    .rdv-card-big h1{
+    font-size: 2.1em;
+}
+ .rdv-card-big p{
+    font-size: .8em;
+}
+    .section-ofertas-cards .rdv-card h1 {
+    font-size: 1.6em;
+        padding: .5rem;
+    bottom: 6rem;
+}
+    .section-ofertas-cards .rdv-card p {
+    font-size: .8em;
+}
+/*CARD WIDE - CARTOES HORIZONTAIS - CARDS DE OPERTAS*/
+    .rdv-card-wide img{
+        height: 7.5rem;
+    }
+.card-wide-footer li{
+    bottom: .1rem;
+    margin-right: 1rem !important;
+}
+.btn-black{
+  padding: 6px;
+  left: .9rem;
+}
+
+.menu-button{
+    margin-top:  2rem;
+}
+
+}
+
+@media (max-width: 560px){
+    .container{
+        width: 98%;
+    }
+        .top-x{
+    margin-top: -48% !important;
+}
+    .section-title-sm h1{
+        font-size: 1.1em;
+        padding: .9rem;
+    }
+        .section-title-sm h2{
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+    .section-title-sm p{
+          font-size: .9em;
+    }
+   .section-destaq-cicle  .section-title-left p{
+        font-size: .9em;
+        padding: .1rem;
+    }
+
+.rdv-card h1{
+ font-size: 1.4em;
+       bottom: 6rem;
+} 
+.rdv-card p{
+ font-size: .8em;
+  bottom: 2rem;
+} 
+.rdv-card .tag-card{
+ font-size: .8em;
+ bottom: .4rem;
+} 
+.rdv-card-mini {
+   width: 100%;
+} 
+.rdv-card-mini img{
+    height: 8rem;
+} 
+.rdv-card-mini h1{
+    font-size: 1em;
+        padding: .2rem;
+        bottom: 2rem;
+} 
+.rdv-card-mini p{
+    font-size: .6em;
+} 
+.rdv-card-mini .tag-card{
+    font-size: .7em;
+    padding: 0;
+} 
+ .rdv-card-big img{
+      height: 19rem;
+    }
+    .rdv-card-big h1{
+    font-size: 2.1em;
+}
+ .rdv-card-big p{
+    font-size: .8em;
+}
+.section-ofertas-cards .rdv-card h1 {
+    font-size: 1.4em;
+    bottom: 5rem;
+}
+.section-ofertas-cards .rdv-card p {
+    font-size: .7em;
+}
+    
+/*CARD WIDE - CARTOES HORIZONTAIS - CARDS DE OPERTAS*/
+  
+.rdv-card-wide img{
+        height: 7.5rem;
+    }
+
+ .card-wide-control:nth-of-type(3){
+   display: none;
+}
+
+}
+
+
+@media (max-width: 488px){
+            
+    .top-x{
+    margin-top: -55% !important;
+}
+    .navbar-brand {
+    margin-left: 0;
+}
+
+    .mt--300{
+        margin-top: -320px!important;
+    }
+.menu-button{
+     margin-right: .5rem;
+    margin-top:  2.2rem;
+}
+    .section-title h1{
+        font-size: 1.8em;
+    }
+    .section-title-sm h1{
+        font-size: 1em;
+        padding: .9rem;
+    }
+   .section-destaq-cicle  .section-title-left p{
+        font-size: .9em;
+        padding: .1rem;
+    }
+    .rdv-card img{
+        height: 13rem;
+    }
+.rdv-card h1{
+ font-size: 1.3em;
+    bottom: 6rem;
+} 
+.rdv-card p{
+ font-size: .7em;
+} 
+.rdv-card .tag-card{
+ font-size: .7em;
+ bottom: .7rem;
+} 
+.rdv-card-mini h1{
+    font-size: 1.1em;
+     bottom: 2.5rem;
+} 
+      .rdv-card-mini p{
+    font-size: .6em;
+} 
+.rdv-card-mini .tag-card{
+    font-size: .6em;
+} 
+ .rdv-card-big img{
+      height: 30rem;
+    }
+    .rdv-card-big h1{
+    font-size: 3.5em;
+}
+ .rdv-card-big p{
+    font-size: 1em;
+}
+    .section-ofertas-cards .rdv-card img {
+    height: 13rem;
+}
+    .section-ofertas-cards .rdv-card h1 {
+    font-size: 1.2em;
+    padding: 0;
+    bottom: 4.5rem;
+}
+    .section-ofertas-cards .rdv-card p {
+    font-size: .7em;
+    font-weight: 600;
+}
+    .rdv-card .btn-black{
+    padding: .65rem;
+   left: .0rem;
+   top: -.9rem;
+    width: 80%;
+  font-size: .7em !important;
+}
+    .pagination {
+    width: 14rem!important;
+}
+}
+
+@media (max-width: 440px){
+    .container{
+        width: 95%;
+    }
+    .top-x{
+    margin-top: -60% !important;
+}
+.pl-4, .px-4 {
+     padding-left: .1rem !important; 
+}
+    .pr-4, .px-4 {
+    padding-right: 1rem !important;
+}
+
+    .rdv-blog-section .section-title-left p{
+        padding: .1rem;
+    }
+    .blog-cards{
+        flex-basis: 100%;
+    }
+    .tile{
+  height: 10rem;
+}
+.tile:hover{
+  height: 19rem;
+}
+    
+ .tile h1{
+  font-size: 1.2em;
+     font-weight: 600;
+}
+ .rdv-card {
+ width: 100%;
+} 
+.rdv-card h1{
+ font-size: 1.2em;
+       bottom: 5rem;
+} 
+.rdv-card p{
+ font-size: .65em;
+} 
+.rdv-card .tag-card{
+ font-size: .65em;
+} 
+.rdv-card-mini {
+    min-width: 10.5rem;
+} 
+.rdv-card-mini h1{
+    font-size: .9em;
+} 
+    .card-wide-footer li{
+    font-size: 0.7em;
+}
+    .btn-black{
+        width: 7.5rem;
+    }
+}
+
+@media (max-width: 390px){
+    .container{
+        width: 95%;
+    }
+ .rdv-card {
+ width: 10.5rem;
+} 
+.rdv-card h1{
+ font-size: 1.1em;
+    bottom: 4rem;
+} 
+.rdv-card-mini {
+    width: 6rem;
+} 
+.rdv-card-mini h1{
+    font-size: .8em;
+} 
+    
+ .rdv-card-big img{
+      height: 19rem;
+    }
+    .rdv-card-big h1{
+    font-size: 2.1em;
+}
+ .rdv-card-big p{
+    font-size: .8em;
+}
+    .section-ofertas-cards .rdv-card h1 {
+    font-size: 1.1em;
+    bottom: 4.5rem;
+}
+    .section-ofertas-cards .rdv-card p {
+    font-size: .62em;
+    font-weight: 600;
+}
+}
+@media (max-width: 361px){
+    .section-title-sm{
+        padding-top: 1rem;
+    }
+        .section-title-sm h2{
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+    .section-title-sm p{
+          font-size: .8em;
+    }
+    .section-ofertas-cards .rdv-card h1 {
+    font-size: 1em;
+}
+    .section-ofertas-cards .rdv-card p {
+    font-size: .6em;
+}
+/*CARD WIDE - CARTOES HORIZONTAIS - CARDS DE OPERTAS*/
+    .rdv-card-wide h4{
+        font-size: .9em;
+    }
+    .rdv-card-wide img{
+        height: 7rem;
+    }
+    .btn-black{
+        font-size: .5em !important;
+        padding: 4px;
+        width: 7rem;
+    }
+    .card-wide-footer li{
+        font-size: 0.6em;
+    }
+
+}
+@media (max-width: 340px){
+    
+.search-container{
+ max-width: 19rem !important;
+}
+    .search-box{
+        width: 95%;
+    }
+    .container{
+        width: 90%;
+    }
+    .section-tile-sm{
+        padding-top: 1rem;
+    }
+        .section-tile-sm h1{
+         font-size: 1.4em;
+    }
+      .section-tile-sm p{
+         font-size: .8em;
+    }
+    
+.blog-cards{
+    flex-basis: 100%;
+    }
+.tile{
+  height: 15rem;
+}
+    
+ .tile h1{
+  font-size: 1.3em;
+}
+
+.tile p{
+  font-size: .9em;
+   padding: 1rem;
+  margin-top: -1rem;
+
+}
+ .rdv-card {
+ width: 18rem;
+} 
+.rdv-card h1{
+ font-size: 1.8em;
+    bottom: 6rem;
+} 
+.rdv-card p{
+ font-size: 1em;
+    bottom: 2rem;
+} 
+.rdv-card tag-card{
+ font-size: 1em;
+    bottom: 2rem;
+} 
+.rdv-card-mini {
+    min-width: 17rem;
+} 
+.rdv-card-mini h1{
+    font-size: 1.3em;
+} 
+    .rdv-card-mini p{
+    font-size: .6em;
+        padding: 0;
+}
+    .rdv-card-mini .tag-card{
+    font-size: .6em;
+          padding: 0;
+}
+    
+ .rdv-card-big img{
+      height: 19rem;
+    }
+    .rdv-card-big h1{
+    font-size: 2.1em;
+}
+ .rdv-card-big p{
+    font-size: .8em;
+}
+     .card-view-control:nth-of-type(2){
+   display: none;
+}
+    .section-ofertas-cards .rdv-card img{
+        height: 19rem;
+    }
+        .section-ofertas-cards .rdv-card h1 {
+    font-size: 1.6em;
+            bottom: 6rem;
+}
+    .section-ofertas-cards .rdv-card p {
+    font-size: .9em;
+}
+/*CARD WIDE - CARTOES HORIZONTAIS - CARDS DE OPERTAS*/
+    .rdv-card-wide h4{
+        font-size: 1em;
+    }
+    .btn-black{
+        font-size: .65em !important;
+        padding: 5px;
+        width: 9rem;
+    }
+    .card-wide-footer li{
+        font-size: .7em;
+       
+    }
+  .card-wide-control:nth-of-type(2){
+   display: none;
+}
+}
+@media (min-width: 1291px){
+    
+.container {
+    max-width: 87%;
+}
+.search-container input#search{
+  padding-left: 3rem;
+  font-size: .9em;
+   
+}
+.search-container input#search:focus{
+  padding-left: 3rem;
+   
+}
+ .tile:hover{
+  height: 23rem;
+}   
+ .tile h1{
+   font-weight: 600;
+}
+
+.tile p{
+  font-size: 1em;
+   padding: 2rem 0;
+}
+.rdv-card{
+    margin-bottom: 3%;
+    } 
+.rdv-card h1{
+  font-size: 2.6em;
+  padding: 10px;
+  bottom: 130px;
+}
+
+.rdv-card  p{
+  font-size: 1em;
+  padding: 10px;
+  bottom: 40px;
+}
+.rdv-card  .tag-card{
+  font-size: 1em;
+  padding: 10px;
+  bottom: 15px;
+}
+.rdv-card-mini{
+  color: #fff;
+  border-radius: 10px; 
+  margin-bottom: 2%;
+    margin-left: 0;
+    width: 91%;
+}
+.rdv-card-mini img{
+    border-radius: 10px;
+    height: 12rem;
+}
+
+.rdv-card-mini h1{
+  font-size: 1.6em;
+   padding: 0.1rem;
+    bottom: 4rem;
+}
+ .rdv-card-mini p{
+  font-size: .8em;
+  padding: 0.1rem;
+  bottom: 2.3rem;
+}
+  .rdv-card-mini .tag-card{
+  font-size: .8em;
+   padding: 0.1rem;
+   bottom: 1rem;
+}
+    .card-wide-footer li{
+         bottom: .2rem;
+    }
+
+}
+
+

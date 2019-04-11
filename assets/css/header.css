@@ -1,0 +1,381 @@
+
+/* HEARDER STYLE */
+.header-global{
+z-index: 5 !important;
+
+}
+.navbar-nav{
+    position: relative;
+    top: -4em;
+}
+.navbar-collapse.collapsing, .navbar-collapse.show {
+    padding: 1.5rem;
+    animation: show-navbar-collapse .2s ease forwards;
+    border-radius: .25rem;
+    background: #fff;
+    box-shadow: 0 50px 100px rgba(50, 50, 93, .1), 0 15px 35px rgba(50, 50, 93, .15), 0 5px 15px rgba(0, 0, 0, .1);
+}
+.navbar-toggler {
+    font-size: 1.25rem;
+    line-height: 1;
+    padding: .25rem .75rem;
+    border: .0625rem solid transparent;
+    border-radius: .25rem;
+    background-color: transparent;
+    float: right;
+    margin-top: 1.4em !important;
+    box-shadow: 2px 2px #282828;
+}
+.navbar-toggler:hover{
+    box-shadow: 2px 2px #281483;
+}
+.link--social .fa:hover {
+
+     color: #000 !important;
+}
+   
+.navbar-nav {
+    top: 10%;
+    display: flex;
+     flex-direction: row; 
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.navbar-nav .nav-link {
+    padding: .625rem 0;
+    color: #fff !important;
+}
+.navbar-nav .nav-link:hover{
+    background: none;
+}
+.nav-link i:not(.fa) {
+    position: relative;
+    top: 6px;
+}
+.top-x{
+    margin-top: -8em;
+}
+.navbar-brand {
+    font-size: .875rem;
+    font-size: .875rem;
+    font-weight: 600;
+    letter-spacing: .05px;
+    text-transform: uppercase;
+    margin-left: 2rem;
+}
+.menu-button{
+     margin-right: 1.5rem;
+    margin-top:  1rem;
+}
+.navbar-brand {
+    font-size: 3rem;
+    line-height: inherit;
+    display: inline-block;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: .0625rem;
+    white-space: nowrap;
+}
+.navbar-brand img{
+    width: 70px;
+    height: 70px;
+}
+.header-place-page{
+    background-image: url('../../img/library-bar.jpg');
+    background-size: cover;
+}
+header-bk{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background: red;
+  width: 100%;
+}
+.logo img{
+  position: relative;
+  width: 100px;
+  cursor: pointer;
+}
+
+
+/* ---- SEARCH AREA ----- */
+.search-box{
+  position: absolute;
+  width: 85%;
+  top: 170px;
+  z-index: 3;
+
+}
+.search-container{
+ max-width: 35rem;
+  height: 5rem;
+  margin: 0 auto;
+}
+.search-container input#search{
+  width: 100%;
+  height: 50px;
+  background: #F5FAFF;
+  border: none;
+  color: #63717f;
+  padding-left: 2.5rem;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  -webkit-transition: background .55s ease;
+  -moz-transition: background .55s ease;
+  -ms-transition: background .55s ease;
+  -o-transition: background .55s ease;
+  transition: background .55s ease;
+   box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.15);
+    font-size: .8em;
+    position: relative;
+}
+
+.search-container input#search::-webkit-input-placeholder {
+   color: #0664A2;
+    padding-left: 1rem;
+}
+
+.search-container input#search:-moz-placeholder { /* Firefox 18- */
+   color:#0664A2 ;
+    padding-left: 1rem;
+    font-size: .8em;
+}
+
+.search-container input#search::-moz-placeholder {  /* Firefox 19+ */
+   color: #0664A2 ;
+    padding-left: 1rem;
+    font-size: .8em;
+}
+
+.search-container input#search:-ms-ime-input-placeholder {
+   color: #0664A2 ;
+    padding-left: 1rem;
+    font-size: .7em;
+    
+}
+ .icon-search{
+  position: absolute;
+  top: .8rem;
+  margin-left: 1rem;
+  z-index: 1;
+  color:#0664A2 !important;
+/*  opacity: .55;*/
+  font-size: 24px;
+}
+
+.search-container input#search:hover, .search-container input#search:focus, .container-1 input#search:active{
+    outline:none;
+    background: #ffffff;
+  }
+.search-container input#search:focus{
+    padding-left: 2.7rem;
+  }
+
+/*************************EXPERIMENTO search **************************************/
+
+
+
+.s130 {
+/*  min-height: 100vh;*/
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+ justify-content: center;
+  background: url("../images/Searchs_130.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 15px;
+    position: absolute;
+    top: 2.3%;
+    z-index: 2;
+    width: 85%;
+}
+
+.s130 form {
+  width: 100%;
+/*  max-width: 790px;*/
+ 
+}
+
+.s130 form .inner-form {
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 34px;
+  overflow: hidden;
+  margin: 4rem auto;
+}
+
+.s130 form .inner-form .input-field {
+  height: 54px;
+}
+
+.s130 form .inner-form .input-field input {
+  height: 100%;
+  background: transparent;
+  border: 0;
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1em;
+  color: #000;
+}
+
+.s130 form .inner-form .input-field input.placeholder {
+ color:#81A0B5;
+  font-size: 1em;
+}
+
+.s130 form .inner-form .input-field input:-moz-placeholder {
+ color:#81A0B5;
+  font-size: 1em;
+}
+
+.s130 form .inner-form .input-field input::-webkit-input-placeholder {
+  color:#81A0B5;
+  font-size: 1em;
+}
+
+.s130 form .inner-form .input-field input:hover, .s130 form .inner-form .input-field input:focus {
+  box-shadow: none;
+  outline: 0;
+}
+
+.s130 form .inner-form .input-field.first-wrap {
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  background: #F5FAFF;
+}
+
+.s130 form .inner-form .input-field.first-wrap input {
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+}
+
+.s130 form .inner-form .input-field.first-wrap .svg-wrapper {
+  min-width: 80px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.s130 form .inner-form .input-field.first-wrap svg {
+  width: 36px;
+  height: 36px;
+  fill: #81A0B5;
+}
+
+.s130 form .inner-form .input-field.second-wrap {
+  min-width: 12rem;
+}
+
+.s130 form .inner-form .input-field.second-wrap .btn-search {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 1em;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  background: #4C1EBA; 
+  transition: all .2s ease-out, color .2s ease-out;
+  font-weight: 300;
+}
+
+.s130 form .inner-form .input-field.second-wrap .btn-search:hover {
+  background: #6123DD;
+}
+
+.s130 form .inner-form .input-field.second-wrap .btn-search:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.s130 form .info {
+  font-size: 15px;
+  color: #81A0B5;
+  padding-left: 26px;
+}
+
+/* --------------------- BREAKE POINTS ---------------------------------- */
+
+@media (max-width: 991px){
+    .s130 form .inner-form {
+  display: flex;
+  width: 70%;
+  margin: 4rem auto;
+    top: 2%;     
+}
+
+.s130 form .inner-form .input-field input.placeholder {
+  font-size: .8em;
+    color:#81A0B5;
+}
+
+.s130 form .inner-form .input-field input:-moz-placeholder {
+  font-size: .8em;
+    color:#81A0B5;
+}
+
+.s130 form .inner-form .input-field input::-webkit-input-placeholder {
+  color:#81A0B5;
+  font-size: .8em;
+}
+}
+
+
+@media (max-width: 690px){
+    
+.s130 {
+  padding: 10px;
+    position: absolute;
+    top: 3%;
+    z-index: 2;
+    width: 90%;
+}
+.s130 form .inner-form {
+  display: flex;
+  width: 100%;
+  margin: 4rem auto;
+}
+
+.s130 form .inner-form .input-field input.placeholder {
+  font-size: .7em;
+  
+}
+    .s130 form .inner-form .input-field.first-wrap svg {
+  width: 24px;
+  height: 24px;
+  fill: #81A0B5;
+}
+
+.s130 form .inner-form .input-field input:-moz-placeholder {
+  font-size: .7em;
+   
+}
+    .s130 form .inner-form .input-field input:-ms-ime-placeholder {
+  font-size: .7em;
+   
+}
+
+.s130 form .inner-form .input-field input::-webkit-input-placeholder {
+  font-size: .7em;
+}
+}
